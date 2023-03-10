@@ -1,0 +1,40 @@
+@media screen and (max-width: 768px) {
+    .Mainpage {
+        width: 100%;
+        margin: 0 0%;
+        padding: 0 0;
+        height: 60%;
+        top: 15%;
+    }
+
+    .main-quote {
+        margin: 15% 15% 0 5%;
+        font-size: 30px;
+        text-align: center;
+        align-items: center;
+        row-gap: 2rem;
+    }
+
+    .second-quote { 
+        width: 100%;
+        display: table; 
+        margin-top: 5%;
+    }
+
+    .work-button  { 
+        width: 100%;
+        margin-left: 10%; 
+        font-size: 40px;
+    }
+
+    .star-quote  { 
+        width: 90%;
+        margin-top: 10%; 
+        margin-left: 10%;
+        font-size: 20px;
+    }
+
+    .cloud-divider{
+        width: 100%;
+    }
+}
