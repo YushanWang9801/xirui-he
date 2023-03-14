@@ -56,7 +56,7 @@ function Gallery(){
             <ul class="grid">
             {gallerys.map((image) => (
                 <li>
-                    <figure class="grid__figure">
+                    <figure class="grid_figure">
                         <img src={image.url} alt={image.caption} />
                         <figcaption>{image.caption}</figcaption>
                     </figure>

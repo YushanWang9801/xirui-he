@@ -1,7 +1,28 @@
-@media all and (max-width: 768px) {
-    .grid {
-        grid-auto-flow: initial;
-        grid-template-columns: repeat(auto-fit, minmax(auto, 20em));
-        justify-content: center;
-   }
+@media screen and (max-width: 768px) {
+    .Playground{
+        margin: 0;
+        margin-left: -10%;
+    }
+    .Playground_header {
+        display: block;
+        height: auto;
+        width : 80%;
+        margin: 0 auto;
+    }
+    .intro{
+        width: 90%;
+    }
+
+    .play{
+        margin-top: 200px;
+        width: 90%;
+    }
+
+    .gallery .grid {
+        grid-template-columns: 1fr;
+    }
+
+   .grid_figure {
+        grid-template-rows: 1fr 1.5em;
+    }
 }

@@ -12,7 +12,7 @@ const Header = ({switchTheme, theme}) => {
                 <nav className="navbar">
                     <a href="/#/design">Design</a>
                     <a href="/#/playground">Playground</a>
-                    <a href="/#/connect">connect</a>
+                    <a href="/#/connect">Connect</a>
                 </nav>
                 <label htmlFor="nav-toggle" className="menuBar">
                         <div className="line"></div>
