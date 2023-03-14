@@ -1,5 +1,6 @@
 import './App.css';
 import Header from './Components/Header/Header';
+import Footer from './Components/Footer/Footer';
 
 import {useEffect,} from "react";
 import useLocalStorage from 'use-local-storage';

@@ -3,14 +3,16 @@
 		Roboto, Helvetica, Arial, sans-serif;
 }
 
-.Header .container {
+.Header .container { 
 	position: fixed;
 	z-index: 10;
 	left: 0;
 	right: 0;
 	top: 0;
 	font-family: 'Montserrat', sans-serif;
+
 	margin: 40px 5%;
+	width: 80%;
 	padding: 0 5%;
 	height: 70px;
 	background-color: var(--Header);
@@ -90,7 +92,10 @@
 
 @media screen and (max-width: 768px) {
 	.Header .container {
+		width: 60%;
+		align-items: center;
 		transition: all .5s ease-in-out;
+		padding-left: 10%;
 	}
 
 	.Header .container .logo {
@@ -108,14 +113,16 @@
 	.Header .container .navbar {
 		float: none;
 		position: fixed;
-		padding: 0;
+		padding: 0 5%;
 		margin: 0 5%;
+
 		z-index: 9;
 		left: 0;
 		right: 0;
 		top: 110px;
 		bottom: 100%;
-		width: auto;
+
+		width: 75%;
 		height: auto;
 		flex-direction: column;
 		justify-content: space-evenly;

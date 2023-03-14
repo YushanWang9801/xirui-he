@@ -1,0 +1,109 @@
+.Footer {
+    font-family: Roboto, "Comic Sans MS", "Comic Sans", cursive,
+    Roboto, Helvetica, Arial, sans-serif;
+    width: 100%;
+    height: 100%;
+}
+
+.Footer {
+    position: relative;
+    margin: 0 auto;
+    height: 200px;
+    width: 80%;
+    background-color: var(--background);
+    display: flex;
+}
+
+.touch-section{
+    width: 50%;
+    padding-top: 20px;
+}
+
+.touch-section h3{ font-size: 25px; }
+.touch-content{ margin-top: -30px;}
+
+.touch-section span{
+    display:flex;
+    font-size: 20px;
+    height: 35px;
+}
+
+.touch-section span h4{
+    font-family: Inter, "Comic Sans MS", "Comic Sans", cursive,
+    Roboto, Helvetica, Arial, sans-serif;;
+}
+
+.touch-section span .span-gray{
+    color: #8A8A8A;
+}
+
+
+.icon-section{
+    width: 50%;
+}
+
+ul {
+    position: relative;
+    display:flex;
+    top: 30%;
+    align-items: center;
+    justify-content: center;
+}
+  
+  ul li {
+    list-style: none;
+  }
+  
+  ul li a {
+    position: relative;
+    width:60px;
+    height:60px;
+    display:block;
+    text-align:center;
+    margin:0 10px;
+    border-radius: 50%;
+    padding: 6px;
+    box-sizing: border-box;
+    text-decoration:none;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.3);
+    background: linear-gradient(0deg, #ddd, #fff);
+    transition: .5s;
+  }
+  
+  ul li a:hover {
+    box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+    text-decoration:none;
+  }
+  
+  ul li a .faicon {
+    width: 50%;
+    height: 50%;
+    transform: translate(50%, 50%);
+    display:block;
+    background: linear-gradient(0deg, #fff, #ddd);
+    border-radius: 50%;
+    line-height: calc(60px - 12px);
+    font-size:24px;
+    color: #262626;
+    transition: .5s;
+  }
+  
+  ul li:nth-child(1) a:hover .faicon {
+    color: #3b5998;
+  }
+  
+  ul li:nth-child(2) a:hover .faicon {
+    color: #00aced;
+  }
+  
+  ul li:nth-child(3) a:hover .faicon {
+    color: #111111;
+  }
+  
+  ul li:nth-child(4) a:hover .faicon {
+    color: #e4405f;
+  }
+  
+  ul li:nth-child(5) a:hover .faicon {
+    color: #e4405f;
+  }
