@@ -1,12 +1,11 @@
 import './App.css';
 import Header from './Components/Header/Header';
-import Footer from './Components/Footer/Footer';
 
 import {useEffect,} from "react";
 import useLocalStorage from 'use-local-storage';
 
 import Mainpage from './Pages/Mainpage/Mainpage';
-// import Mainpage from './Pages/Mainpage/page';
+import Playground from './Pages/Playground/Playground';
 
 function App() {
   const defaultDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
@@ -24,7 +23,8 @@ function App() {
   return (
     <div className="App">
       <Header switchTheme={switchTheme} theme={theme} />
-      <Mainpage />
+      {/* <Mainpage /> */}
+      <Playground />
     </div>
   );
 }

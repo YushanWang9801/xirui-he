@@ -1,0 +1,7 @@
+@media all and (max-width: 768px) {
+    .grid {
+        grid-auto-flow: initial;
+        grid-template-columns: repeat(auto-fit, minmax(auto, 20em));
+        justify-content: center;
+   }
+}
