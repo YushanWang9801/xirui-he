@@ -10,7 +10,7 @@ const Header = ({switchTheme, theme}) => {
                     <a href="/"><h1>XIRUI HE</h1></a>   
                 </div>
                 <nav className="navbar">
-                    <a href="/#/design">Design</a>
+                    <a href="/#/project">Design</a>
                     <a href="/#/playground">Playground</a>
                     <a href="/#/connect">Connect</a>
                 </nav>
