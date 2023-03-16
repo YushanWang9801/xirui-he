@@ -6,6 +6,7 @@ import useLocalStorage from 'use-local-storage';
 
 import Mainpage from './Pages/Mainpage/Mainpage';
 import Playground from './Pages/Playground/Playground';
+import Project from "./Pages/Project/Project";
 
 function App() {
   const defaultDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
@@ -24,7 +25,8 @@ function App() {
     <div className="App">
       <Header switchTheme={switchTheme} theme={theme} />
       {/* <Mainpage /> */}
-      <Playground />
+      {/* <Playground /> */}
+      <Project />
     </div>
   );
 }
