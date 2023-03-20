@@ -7,6 +7,7 @@ import useLocalStorage from 'use-local-storage';
 import Mainpage from './Pages/Mainpage/Mainpage';
 import Playground from './Pages/Playground/Playground' ;
 import Project from "./Pages/Project/Project";
+import Contact from "./Pages/Contact/Contact";
 
 import {Routes, Route, Navigate } from "react-router-dom";
 
@@ -30,6 +31,7 @@ function App() {
           <Route key="home"     path="/" element={<Mainpage />} />
           <Route key="project"  path="/project" element={<Project />} />
           <Route key="playground"  path="/playground" element={<Playground />} />
+          <Route key="connect"  path="/connect" element={<Contact />} />
           <Route path="*" element={<Navigate to="/" replace />} />
       </Routes>
     </div>
