@@ -1,7 +1,6 @@
 .main {
     font-family: Roboto, "Comic Sans MS", "Comic Sans", cursive,
     Roboto, Helvetica, Arial, sans-serif;
-    position: absolute;
     width: 100%;
     height: 100%;
 }
@@ -55,7 +54,6 @@
 .cloudDivider {
     width: 100%;
     height: auto;
-    bottom: -1px;
     display: block;
 }
 
@@ -90,4 +88,28 @@
     padding: 20px 0;
     text-align: center;
     font-size: 25px;
+}
+
+@media screen and (max-width: 768px) {
+    .Mainpage{
+        width: 100vw;
+    }
+    .main-quote{
+        width: 80%;
+        min-width: 60vw !important;
+        height: auto;
+        margin: 0 10%;
+
+        font-size: 7vw;
+    }
+
+    .second-quote {
+        flex-direction: column;
+    }
+
+    .star-quote {
+        margin-top: 6vh;
+        width: 80%;
+    }
+
 }

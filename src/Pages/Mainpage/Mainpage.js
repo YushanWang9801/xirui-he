@@ -1,6 +1,5 @@
 import Typewriter from 'typewriter-effect';
 import "./Mainpage.css";
-import "./mobile-Mainpage.css";
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faArrowRight } from '@fortawesome/free-solid-svg-icons';

@@ -33,6 +33,7 @@ function App() {
           <Route key="playground"  path="/playground" element={<Playground />} />
           <Route key="connect"  path="/connect" element={<Contact />} />
           <Route path="*" element={<Navigate to="/" replace />} />
+          <Route path="test" element={<Mainpage />} />
       </Routes>
     </div>
   );

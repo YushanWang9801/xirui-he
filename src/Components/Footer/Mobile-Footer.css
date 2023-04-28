@@ -4,7 +4,7 @@
         Roboto, Helvetica, Arial, sans-serif;
         width: 100%;
         height: 200px;
-        display: block;
+        flex-direction: column;
     }
 
     .touch-section{
@@ -19,7 +19,8 @@
         height: 200px;
         align-items: center;
         justify-content: center;
-        margin-left: -10%;
-        margin-top: -20%;
+        margin-left: -5%;
+        margin-top: 5%;
+        padding-bottom: 15%;
     }
 }

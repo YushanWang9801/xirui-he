@@ -41,3 +41,9 @@ code {
     color: var(--secondary);
     background-color: var(--background);
 }
+
+/* @media screen and (max-width: 768px) {
+    .App{
+        overflow-x: hidden;
+    }
+} */

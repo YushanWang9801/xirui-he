@@ -179,7 +179,7 @@ textarea:focus {
   .Contact {
     margin: 20px auto;
     margin-top: 150px;
-    width: 95%;
+    width: 100vw;
   }
 }
 
