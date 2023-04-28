@@ -189,7 +189,7 @@
     .card-content {
         width: 90%;
         height: auto;
-        padding-left: 10%;
+        padding-left: 5%;
     }   
 
     .card-title {
@@ -198,7 +198,7 @@
     }
 
     .card-name {
-        font-size: min(4.5vh, 8vw);
+        font-size: min(4.5vh, 6vw);
     }
 
     .card-button {

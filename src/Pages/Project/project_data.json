@@ -15,10 +15,28 @@
         "short_desc": "Helping patients with limited English proficiency gain accessibility to health care service."
     },{
         "title": "UBER POOL FREINDS",
-        "color": "#B5C976",
+        "color": "#EF8131",
         "img_url": "./Project-images/cover3.png", 
         "category": "UX Project",
         "subtitle": "iPad UI design, UX research & analysis, prototyping",
         "short_desc": "Helping patients with limited English proficiency gain accessibility to health care service."
+    }, {"title": "LIBRARY WEB REDESIGN",
+        "color": "#b5c976",
+        "img_url": "./Project-images/cover4.png", 
+        "category": "UX research",
+        "subtitle": "Web UI design, UX research & analysis",
+        "short_desc":"Research on help channel access and preference across physical and virtual space at the UC San Diego library."
+    }, {"title": "LIBRARY WEB REDESIGN",
+        "color": "#10326B",
+        "img_url": "./Project-images/cover5.png", 
+        "category": "Designathon",
+        "subtitle": "Urban design, UI design",
+        "short_desc":"Activating the UCSD campus by building an ecologically, socially, and technologically friendly mobility hub."
+    }, {"title": "PET-CENTERED DESIGN",
+        "color": "#81A6AE",
+        "img_url": "./Project-images/cover6.png", 
+        "category": "Product Design",
+        "subtitle": "UX research, prototyping",
+        "short_desc":"How can we help maintain pet health and comfort for both pets and their humans with our furniture design ?"
     }
 ]

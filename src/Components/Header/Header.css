@@ -108,18 +108,13 @@
 		font-size: 12px;
 	}
 
-	.Header .container .menuBar {
-		display: block;
-	}
-
 	.Header .container .navbar {
 		float: none;
 		position: fixed;
 		justify-content: center;
 		align-items: center;
 		text-align: center;
-
-
+		
 		z-index: 9;
 		top: 110px;
 		bottom: 100%;
