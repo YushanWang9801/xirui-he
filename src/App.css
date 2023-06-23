@@ -1,5 +1,5 @@
 body {
-    font-family: Optima, 'Fira Code', "Comic Sans MS", "Comic Sans", cursive,
+    font-family: 'Inter', Optima, 'Fira Code', "Comic Sans MS", "Comic Sans", cursive,
         Roboto, Helvetica, Arial, sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
@@ -7,7 +7,7 @@ body {
 }
 
 code {
-    font-family: Optima, 'Fira Code', "Comic Sans MS", "Comic Sans", cursive,
+    font-family: 'Inter', Optima, 'Fira Code', "Comic Sans MS", "Comic Sans", cursive,
         Roboto, Helvetica, Arial, sans-serif;
 }
 

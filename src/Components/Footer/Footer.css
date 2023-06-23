@@ -48,6 +48,7 @@ ul {
     top: 30%;
     align-items: center;
     justify-content: center;
+    float: right;
 }
   
   ul li {

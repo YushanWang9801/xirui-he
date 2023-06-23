@@ -2,7 +2,7 @@ import Typewriter from 'typewriter-effect';
 import "./Mainpage.css";
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faArrowRight } from '@fortawesome/free-solid-svg-icons';
+import { faArrowRightLong } from '@fortawesome/free-solid-svg-icons';
 import Footer from '../../Components/Footer/Footer';
 
 const quote = (<Typewriter
@@ -30,24 +30,26 @@ function Mainpage() {
     return (
         <div className="main">
             <div className="Mainpage">
-                <div className="main-quote">{quote}</div>
+                <div className="Name-intro"><h1>Hi, I'm Xirui!</h1></div>
                 <div className="second-quote">
+                    <div className="main-quote">{quote}</div>
                     <div className="work-button">
-                        <span>See my Work
-                            <FontAwesomeIcon className="faicon" icon={faArrowRight} />
+                        <span> <a href="/#/project">See my work</a>
+                            <FontAwesomeIcon className="faicon" icon={(faArrowRightLong)} />
                         </span>
                     </div>
-                    <div className="star-quote">
-                        <span>“The universe is made of stories, not atoms.”{starTrek}
-                        </span>
-                    </div>
+                    
                 </div>
             </div>
-            <div className="cloudDivider">
+            {/* <div className="cloudDivider">
                 {clouddivider}
-            </div>
+            </div> */}
             <div className="coverSection">
                 <div className='photo'></div>
+                <div className="star-quote">
+                        <span>“The universe is made of stories, not atoms.”{starTrek}
+                        </span>
+                </div>
             </div>
             <div className="aboutSection">
                 <div className="sentence">

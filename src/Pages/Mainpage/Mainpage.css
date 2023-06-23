@@ -1,5 +1,5 @@
-.main {
-    font-family: Roboto, "Comic Sans MS", "Comic Sans", cursive,
+.menuBar.main {
+    font-family: 'Inter', Roboto, "Comic Sans MS", "Comic Sans", cursive,
     Roboto, Helvetica, Arial, sans-serif;
     width: 100%;
     height: 100%;
@@ -9,20 +9,28 @@
     position: relative;
     margin: 0 auto;
     margin-top: 150px;
-    height: 400px;
+    height: 320px;
     width: 70%;
     background-color: var(--background);
 }
 
+.Name-intro h1{
+    padding-top: 4vh;
+    font-size: 3.5em;
+}
+
 .main-quote{
-    width: 60%;
+    width: 85%;
     min-width: 500px;
     height: 150px;
-    font-size: 32px;
+    line-height: 1.4em;
+    font-size: 1.9em;
+    font-weight: 510;
+    padding-top: 5%;
 }
 
 .second-quote {
-    margin-top: 50px;
+    margin-top: 0;
     height: 150px;
     display: flex;
     align-items: center;
@@ -32,24 +40,25 @@
     width: 40%;
     padding-left: 5%;
     min-width: 300px;
+    margin-top: 1vh;
+    margin-left: 10vw;
 }
 
 .work-button span{
     background-color: var(--Header-primary);
-    font-size: 25px;
+    font-size: 23px;
 
     border-radius: 20px;
     border: 2px solid var(--Header);
-    padding: 10px 20px;
+    padding: 11px 20px;
+}
+
+.work-button span a {
+    text-decoration: none;
+    color: inherit;
 }
 
 .work-button .faicon{ margin-left: 40px;}
-.star-quote { width: 50%; }
-
-.star-quote span{
-    font-size: 24px;
-    text-align: center;
-}
 
 .cloudDivider {
     width: 100%;
@@ -59,12 +68,12 @@
 
 .coverSection {
     width: 100%;
-    height: 420px;
-    margin-top: -10px;
-    background: pink;
+    height: 450px;
     display: flex;
+    flex-direction: column;
+    background: var(--background);
     align-items: center;
-    justify-content: center;
+    /* justify-content: center; */
 }
 
 .photo{
@@ -75,32 +84,64 @@
     background-size: cover;
 }
 
+.star-quote { 
+    margin-top: 50px;
+    width: 100%; 
+    text-align: center;
+}
+
+.star-quote span{
+    font-size: 24px;
+}
+
+
 .aboutSection {
-    width: 100%;
-    background: pink;
-    padding-bottom: 100px;
+    width: 80%;
+    margin-left: 10%;
+    background: #fff;
+    padding: 40px 0;
+    border: 3px dashed black;
+    border-radius: 30px;;
 }
 
 .sentence {
     display: block;
-    width: 65%;
+    width: 75%;
     margin: 0 auto;
     padding: 20px 0;
     text-align: center;
-    font-size: 25px;
+    font-size: 22px;
 }
 
 @media screen and (max-width: 768px) {
     .Mainpage{
         width: 100vw;
+        height: 400px;
     }
+
+    .Name-intro {
+        margin-left: 15vw;
+    }
+
+    .Name-intro h1{
+        padding-top: 2vh;
+        font-size: 2.8em;
+    }
+
     .main-quote{
         width: 80%;
         min-width: 60vw !important;
         height: auto;
         margin: 0 10%;
-
         font-size: 7vw;
+        font-weight: 400;
+    }
+
+    .work-button{
+        position: absolute;
+        top: 70%;
+        margin-top: 5vh;
+        margin-left: 0;
     }
 
     .second-quote {

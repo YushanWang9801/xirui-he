@@ -108,6 +108,10 @@
 		font-size: 12px;
 	}
 
+	.Header .container .menuBar {
+		display: inline-block;
+	}
+
 	.Header .container .navbar {
 		float: none;
 		position: fixed;
@@ -145,6 +149,7 @@
 	.Header :checked~.container .navbar {
 		bottom: 40%;
 	}
+
 
 	.Header :checked~.container .menuBar .line:nth-child(1) {
 		transform: translateY(10px) rotate(225deg);
