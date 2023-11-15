@@ -8,6 +8,7 @@ import Mainpage from './Pages/Mainpage/Mainpage';
 import Playground from './Pages/Playground/Playground' ;
 import Project from "./Pages/Project/Project";
 import Contact from "./Pages/Contact/Contact";
+import Lumia from "./Lumia/Lumia";
 
 import {Routes, Route, Navigate } from "react-router-dom";
 
@@ -28,12 +29,13 @@ function App() {
     <div className="App">
       <Header switchTheme={switchTheme} theme={theme} />
       <Routes>
-          <Route key="home"     path="/" element={<Mainpage />} />
-          <Route key="project"  path="/project" element={<Project />} />
+          <Route key="home"        path="/" element={<Mainpage />} />
+          <Route key="project"     path="/project" element={<Project />} />
           <Route key="playground"  path="/playground" element={<Playground />} />
-          <Route key="connect"  path="/connect" element={<Contact />} />
-          <Route path="*" element={<Navigate to="/" replace />} />
-          <Route path="test" element={<Mainpage />} />
+          <Route key="connect"     path="/connect" element={<Contact />} />
+          <Route key="lumia"       path="/lumia" element={<Lumia />} />
+          <Route path="*"          element={<Navigate to="/" replace />} />
+          <Route path="test"       element={<Mainpage />} />
       </Routes>
     </div>
   );

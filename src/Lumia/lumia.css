@@ -1,0 +1,286 @@
+.Lumia{
+    margin-top: 15vh;
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:  center;
+}
+
+.Lumia .title {
+    margin-right: auto;
+}
+
+.LumiaOverview{
+    width: 90vw;
+    max-width: 1260px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:  center;
+
+    margin-bottom: 50px;
+}
+
+.IntroPhoto {
+    width: 90vw;
+    max-width: 1260px;
+    height: 400px;
+    background: url("../../public/Lumia/images/banner.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+.Lumia .title #overview {
+    margin-right: auto;
+}
+
+.Lumia #overview-paragraph {
+    font-size: 18px;
+}
+
+.distribution{
+    margin-top: 7vh;
+    display: flex;
+    
+    border: 2px dashed var(--secondary);
+    background-color: var(--accent);
+    border-radius: 50px;
+
+    width: 1080px;
+    max-width: 1260px;
+    height: 25vh;
+}
+
+.distribution .column {
+    flex:1;
+    height: 25vh;
+
+    font-family: 'Inter', Optima, 'Fira Code', "Comic Sans MS", "Comic Sans", cursive,
+        Roboto, Helvetica, Arial, sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    padding-top: 5vh;
+    align-items: left;
+    padding-left: 3vw;
+}
+
+.distribution .column span {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.distribution .column p {
+    line-height: 0.2;
+}
+
+.SecondPart {
+    background-color: #FFFF;
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    align-items:  center;
+    padding-bottom: 10vh;
+}
+
+.SecondPart u {
+    margin-top: 40px;
+}
+
+.SecondPart .sectionTitle{
+    width: 90vw;
+    max-width: 1080px;
+    margin-top: 20px;
+
+    display: flex;
+}
+
+.SecondPart .sectionTitle span {
+    color: #C6C6C6;
+    font-size: 40px;
+    font-weight: bold;
+    margin-right: 15px;
+}
+
+.SecondPart p {
+    width: 65vw;
+    font-size: 16px;
+}
+
+.SecondPart #concept_1{
+    width: 650px;
+    height: auto;
+}
+
+.SecondPart #concept_2{
+    width: 650px;
+    height: auto;
+}
+
+.SecondPart .competitive{
+    display: flex;
+
+    width: 1080px;
+    max-width: 1080px;
+}
+
+
+.SecondPart .competitive .column {
+    flex:1;
+
+    font-family: 'Inter', Optima, 'Fira Code', "Comic Sans MS", "Comic Sans", cursive,
+        Roboto, Helvetica, Arial, sans-serif;
+
+    font-size: 15px;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    text-align: center;
+    line-height: 0.2;
+    /* border: 2px solid black; */
+}
+
+.SecondPart .competitive .column img{
+    width: 200px;
+    height: auto;
+}
+
+.SecondPart .competitive .column p {
+    width: 20vw;
+}
+
+.SecondPart #competitive_1 {
+    width: 800px;
+    height: auto;
+}
+
+.SecondPart #nondigital{
+    width: 70%;
+    height: auto;
+}
+
+.DesignPart {
+    width: 90vw;
+    max-width: 1260px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:  center;
+
+    margin-bottom: 50px;
+}
+
+.DesignPart .goals {
+    font-weight: 1.8;
+    font-size: 20px;
+}
+
+
+.DesignPart .sectionTitle{
+    width: 90vw;
+    max-width: 1080px;
+    margin-top: 20px;
+
+    display: flex;
+}
+
+.DesignPart .sectionTitle span {
+    color: #C6C6C6;
+    font-size: 40px;
+    font-weight: bold;
+    margin-right: 15px;
+}
+
+.DesignPart #Keyword{
+    margin-top: 60px;
+}
+
+
+.DesignPart  .distribution{
+    margin-top: 0;
+    margin-bottom: 10vh;
+}
+
+.DesignPart .distribution .env{
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    line-height: 1.5;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.DesignPart #color {
+    margin-top: 7vh;
+}
+
+.DesignPart  #palette {
+    width: 900px;
+    height: auto;
+}
+
+.Colordiv {
+    width: 100vw;
+    background-color: #FFF;
+
+    display: flex;
+    flex-direction: column;
+    align-items:  center;
+    padding-bottom: 10vh;
+}
+
+.colordiv-content {
+    width: 90vw;
+    max-width: 1080px;
+    display: flex;
+    flex-direction: column;
+    align-items:  center;
+}
+
+.Colordiv #line {
+    width: 650px;
+    height: auto;
+    margin: 5vh 0;
+}
+
+.DesignPart  #sketch{
+    width: 900px;
+    height: auto;
+    margin: 5vh 0;
+}
+
+.DesignPart  #BA {
+    width: 900px;
+    height: auto;
+    margin: 5vh 0;
+}
+
+.DesignPart  #main {
+    width: 900px;
+    height: auto;
+    margin: 5vh 0;
+}
+
+.DesignPart  #other {
+    width: 900px;
+    height: auto;
+    margin: 5vh 0;
+}
+
+.DesignPart  #tutorial {
+    width: 900px;
+    height: auto;
+    margin: 5vh 0;
+}
