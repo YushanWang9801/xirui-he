@@ -5,7 +5,8 @@
         "img_url": "./Project-images/cover1.png", 
         "category": "Product Design",
         "subtitle": "Game UI design",
-        "short_desc": "A strategic puzzle platformer game designed for IOS users. The app was beta released on IOS App store testflight and won 1st place in Advanced Game Design class."
+        "short_desc": "A strategic puzzle platformer game designed for IOS users. The app was beta released on IOS App store testflight and won 1st place in Advanced Game Design class.",
+        "link" : "/#/lumia"
     },{
         "title": "MEDLINGO",
         "color": "#0284C7",

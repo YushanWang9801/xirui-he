@@ -4,21 +4,21 @@ import "./Mobile-Playground.css";
 
 const gallerys = [
     {   "url":"./images/1.jpg",
-        "caption": "Procreate"
+        "caption": ""
     },{ "url":"./images/2.jpg",
-        "caption": "Procreate"
+        "caption": ""
     },{ "url":"./images/3.jpg",
-        "caption": "Procreate"
-    },{ "url":"./images/4.jpg",
-        "caption": "Procreate"
-    },{   "url":"./images/1.jpg",
-        "caption": "Procreate"
-    },{ "url":"./images/2.jpg",
-        "caption": "Procreate"
-    },{ "url":"./images/3.jpg",
-        "caption": "Procreate"
-    },{ "url":"./images/4.jpg",
-        "caption": "Procreate"
+        "caption": ""
+    },{ "url":"./images/4.jpeg",
+        "caption": ""
+    },{   "url":"./images/5.jpeg",
+        "caption": ""
+    },{ "url":"./images/6.jpeg",
+        "caption": ""
+    },{ "url":"./images/7.jpeg",
+        "caption": ""
+    },{ "url":"./images/8.jpeg",
+        "caption": ""
     },
 ]
 

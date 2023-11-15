@@ -210,3 +210,8 @@
         margin-bottom: 2vh;
     }
 }
+
+
+.project-Card .card-button .Learnmore a{
+    text-decoration: none;
+}

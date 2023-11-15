@@ -32,9 +32,9 @@ function ProjectCard({card}){
                 <div className="sub">{card.subtitle}</div>
                 <p>{card.short_desc}</p>
                 <div className="card-button">
-                    <span>Learn More
+                    <a href={card.link} ><span>Learn More
                         <FontAwesomeIcon className="faicon" icon={faArrowRight} />
-                    </span>
+                    </span></a>
                 </div>               
             </div>
         </div>
