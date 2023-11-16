@@ -1,4 +1,3 @@
-import Footer from "../../Components/Footer/Footer";
 import "./Project.css";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faArrowRight } from '@fortawesome/free-solid-svg-icons';
@@ -13,7 +12,6 @@ function Project() {
             {data.map(card => {
                 return (<ProjectCard card={card} />);
             })}
-            <Footer />
         </div>
     );
 }
@@ -26,13 +24,13 @@ function ProjectCard({card}){
             </div>
             <div className="card-content">
                 <div className="card-title">
-                    <span class="card-name" style={{color: `${card.color}`}}>{card.title}</span>
+                    <span className="card-name" style={{color: `${card.color}`}}>{card.title}</span>
                     <span>/</span><span>{card.category}</span>    
                 </div>
                 <div className="sub">{card.subtitle}</div>
                 <p>{card.short_desc}</p>
                 <div className="card-button">
-                    <a href={card.link} ><span>Learn More
+                    <a href={card.link} className="Learnmore"><span>Learn More
                         <FontAwesomeIcon className="faicon" icon={faArrowRight} />
                     </span></a>
                 </div>               

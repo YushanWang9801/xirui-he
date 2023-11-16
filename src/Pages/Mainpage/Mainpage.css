@@ -1,4 +1,4 @@
-.menuBar.main {
+.menuBar .main {
     font-family: 'Inter', Roboto, "Comic Sans MS", "Comic Sans", cursive,
     Roboto, Helvetica, Arial, sans-serif;
     width: 100%;
@@ -6,7 +6,6 @@
 }
 
 .Mainpage{
-    position: relative;
     margin: 0 auto;
     margin-top: 150px;
     height: 320px;
@@ -27,6 +26,8 @@
     font-size: 1.9em;
     font-weight: 510;
     padding-top: 5%;
+
+    margin-left: -50px;
 }
 
 .second-quote {
@@ -41,7 +42,7 @@
     padding-left: 5%;
     min-width: 300px;
     margin-top: 1vh;
-    margin-left: 10vw;
+    margin-left: 5vw;
 }
 
 .work-button span{

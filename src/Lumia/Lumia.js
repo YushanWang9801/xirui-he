@@ -1,5 +1,5 @@
 import "./lumia.css";
-import Footer from "../Components/Footer/Footer";
+import "./Mobile-lumia.css";
 
 function Lumia () {
     return (
@@ -7,7 +7,6 @@ function Lumia () {
             <LumiaOverview />
             <LumiaSecondPart />
             <Design />
-            <Footer />
         </div>
     );
 };
@@ -38,7 +37,7 @@ function LumiaOverview () {
                     <p>Design all UI screens</p>
                 </div>
 
-                <div className="column">
+                <div className="column" id="column3">
                     <span>Collaborators:</span>
                     <p>1 other designer</p>
                     <p>2 character designers</p>
@@ -133,7 +132,7 @@ function CompetitiveAnalysis(){
                 <p>Launch itself to any direction</p>
             </div>
 
-            <div className="column"> 
+            <div className="column" > 
                 <h3>Night Sky</h3>
                 <img id="Game1" src="./Lumia/images/nightsky.png"  
                         alt="This is an icon of one competitive game" />
@@ -179,14 +178,14 @@ function Design() {
 
             <div className="distribution">
                 <div className="env">
-                    <span>Environmental mood keyword:</span>
+                    <span id="env-title">Environmental :</span>
                     <span>adventurous</span>
                     <span>mystical</span>
                     <span>otherworldly</span>
                     <span>deserted</span>
                 </div>
                 <div className="env"> 
-                    <span>Character mood keyword:</span>
+                    <span id="env-title" >Characters:</span>
                     <span>ethereal</span>
                     <span>magical</span>
                     <span>captivated</span>

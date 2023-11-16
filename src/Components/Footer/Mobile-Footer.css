@@ -7,6 +7,12 @@
         flex-direction: column;
     }
 
+    .touch-section span h4{
+        font-family: Inter, "Comic Sans MS", "Comic Sans", cursive,
+        Roboto, Helvetica, Arial, sans-serif;;
+        font-size: 2.5vh;
+    }
+
     .touch-section{
         width: 90%;
         height: 200px;

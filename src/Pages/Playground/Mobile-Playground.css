@@ -40,6 +40,6 @@
     }
 
    .grid_figure {
-        grid-template-rows: 1fr 1.5em;
+        grid-template-rows: 1fr 0.8em;
     }
 }

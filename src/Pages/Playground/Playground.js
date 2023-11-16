@@ -1,4 +1,3 @@
-import Footer from "../../Components/Footer/Footer";
 import "./Playground.css";
 import "./Mobile-Playground.css";
 
@@ -27,7 +26,6 @@ function Playground() {
         <div className="playground">
             <Playground_header />
             <Gallery />
-            <Footer />
         </div>
     );
 }

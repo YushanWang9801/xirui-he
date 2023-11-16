@@ -1,7 +1,8 @@
 .Footer {
     font-family: Roboto, "Comic Sans MS", "Comic Sans", cursive,
     Roboto, Helvetica, Arial, sans-serif;
-    width: 100%;
+    width: 90%;
+    max-width: 1260px;
     height: 100%;
 }
 
@@ -9,9 +10,10 @@
     position: relative;
     margin: 0 auto;
     height: 200px;
-    width: 80%;
+    width: 100%;
     background-color: var(--background);
     display: flex;
+    margin-bottom: 100px;
 }
 
 .touch-section{
@@ -24,13 +26,14 @@
 
 .touch-section span{
     display:flex;
-    font-size: 20px;
+    /* font-size: 20px; */
     height: 35px;
 }
 
 .touch-section span h4{
     font-family: Inter, "Comic Sans MS", "Comic Sans", cursive,
     Roboto, Helvetica, Arial, sans-serif;;
+    font-size: 1.6vw;
 }
 
 .touch-section span .span-gray{
@@ -40,6 +43,7 @@
 
 .icon-section{
     width: 50%;
+    margin-left: 10vw;
 }
 
 ul {

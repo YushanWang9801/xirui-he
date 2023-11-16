@@ -10,6 +10,8 @@ import Project from "./Pages/Project/Project";
 import Contact from "./Pages/Contact/Contact";
 import Lumia from "./Lumia/Lumia";
 
+import Footer from "./Components/Footer/Footer";
+
 import {Routes, Route, Navigate } from "react-router-dom";
 
 function App() {
@@ -37,6 +39,7 @@ function App() {
           <Route path="*"          element={<Navigate to="/" replace />} />
           <Route path="test"       element={<Mainpage />} />
       </Routes>
+      <Footer />
     </div>
   );
 }

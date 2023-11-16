@@ -3,7 +3,6 @@ import "./Mainpage.css";
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faArrowRightLong } from '@fortawesome/free-solid-svg-icons';
-import Footer from '../../Components/Footer/Footer';
 
 const quote = (<Typewriter
     onInit={(typewriter) => {
@@ -65,7 +64,6 @@ function Mainpage() {
                     With a background in both cognitive science and information technologies, I wish to create smooth digital experiences that respects the human mind and body.
                 </div>
             </div>
-            <Footer />
         </div>
     );      
 }

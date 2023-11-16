@@ -1,5 +1,4 @@
 import "./Contact.css";
-import Footer from "../../Components/Footer/Footer";
 
 function Contact() {
     return (
@@ -45,7 +44,6 @@ function Contact() {
                 </div>
             </form>
         </div>
-        <Footer />
     </>
     );
 }
