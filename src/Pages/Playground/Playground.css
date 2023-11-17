@@ -22,7 +22,8 @@
 .intro span{
     display: inline-block;
     padding-top: 20px;
-    font-size: 18px;
+    font-size: min(1.7vw, 2.5vh);
+    margin-right: 5vw;
 }
 
 .play{
